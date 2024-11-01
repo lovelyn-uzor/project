@@ -57,3 +57,30 @@ li.completed{
     cursor: pointer;
     border-radius: 3px;
 }
+
+.listItem{
+    display: flex;
+    align-items:center;
+     margin-bottom: 10px;
+     padding: 8px;
+     background-color: #f0f0f0;
+     border-radius: 5px;
+}
+/* styling for completed task */
+.listItem.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+/* styling for button */
+.listItem button{
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.listItem button edit{
+    color: #007bff;
+}
+.listItem button..remove-btn {
+    color: #007bff;
+}
